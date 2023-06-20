@@ -26,21 +26,21 @@
     "react-hooks/exhaustive-deps": "warn",
     "react/react-in-jsx-scope": "off",
     "react/prop-types": "off",
-    "prettier/prettier": "error"
-  },
-  "import-helpers/order-imports": [
-    "warn",
-    {
-      "newlinesBetween": "always",
-      "groups": [
-        ["/^react/", "/^next/", "/@next/"],
-        "/module/",
-        "/components/",
-        "/^@shared/",
-        "/absolute/",
-        ["parent", "sibling", "index"]
-      ],
-      "alphabetize": {"order": "asc", "ignoreCase": true}
-    }
-  ]
+    "prettier/prettier": "error",
+    "import-helpers/order-imports": [
+      "warn",
+      {
+        "newlinesBetween": "always",
+        "groups": [
+          ["/^react/", "/^next/", "/@next/"],
+          "/module/",
+          "/components/",
+          "/^@shared/",
+          "/absolute/",
+          ["parent", "sibling", "index"]
+        ],
+        "alphabetize": { "order": "asc", "ignoreCase": true }
+      }
+    ]
+  }
 }
