@@ -1,4 +1,4 @@
-import './globals.css';
+/* eslint-disable prettier/prettier */
 import { Inter } from 'next/font/google';
 
 const inter = Inter({ subsets: ['latin'] });
